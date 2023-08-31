@@ -7,5 +7,5 @@ setup(
     author='Your Name',
     author_email='your@email.com',
     packages=find_packages(),
-    entry_points={'console_scripts': ['clean-folder = clean_folder.clean_folder:main']},
+    entry_points={'console_scripts': ['clean-folder = Folder.clean_folder:main']},
 )
